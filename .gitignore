@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.jupyter/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Spark
+*.log
+spark-warehouse/
+metastore_db/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+
+# Data files (optional - uncomment if needed)
+# *.csv
+# *.parquet
+# *.json
