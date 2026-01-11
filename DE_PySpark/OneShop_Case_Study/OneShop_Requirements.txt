@@ -1,0 +1,29 @@
+OneShop, an e-commerce platform that offers > 1000 unique items across various categories.
+ From trending gadgets to household essentials, OneShop serves a wide range of customer needs. 
+Over the years, the store has grown significantly, serving more than 1,000 page views per minute on its website and processing around
+ 50 orders during peak times.
+
+OneShop currently operates three systems that handle day-to-day activities:
+1.	
+PostgreSQL Database: This relational database houses key business data, including:
+Users table: Information about customers who shop on the platform.
+
+Items table: A catalog of the more than 1,000 products available for sale.
+
+Purchases table: Records of transactions, capturing details about what customers buy and when.
+
+ 
+2.	
+Store website: The primary customer touchpoint, where visitors browse items, add them to their cart, and complete purchases. The website generates a wealth of data, including user behavior, product views, and click patterns.
+
+ 
+3.	
+Data lake: Built on MinIO, the data lake serves as a repository for storing raw, semi-structured, and unstructured data. Currently, it collects page view events from the website, tracking every product a user explores during their visit.
+
+They want to leverage data analytics and AI advancements to boost revenue while maintaining excellent customer service.
+
+The IT department needs reliable, accurate, and timely analytics, while Marketing seeks deeper insights into customer behavior and campaign effectiveness. The Customer Support team requires tools for customer sentiment analysis and improved service delivery. To meet these requirements, OneShop has launched a data engineering program to transform its infrastructure into a robust, scalable platform that delivers actionable insights and enhances the shopping experience.
+
+As the new data engineer at OneShop, you will work closely with stakeholders from each department to understand their needs and develop data pipelines that bring value to their operations. 
+
+
